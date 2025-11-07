@@ -126,6 +126,7 @@
 //     }
 // }
 
+<<<<<<< HEAD
 // public class array{
 //     public static void main(String[]args){
 //       int arr[]={10,20,30,40,50,60};
@@ -584,4 +585,40 @@ public class array{
 
        }
    }
+=======
+public class array{
+    public static void main(String[]args){
+      int arr[]={10,20,30,40,50,60};
+      int n=6;
+      //delete at begining
+      for (int i=0;i<n;i++) {
+          System.out.print(arr[i]+" ");
+      }
+      System.out.println("\ndeletion at first");
+      for(int i=0;i<n-1;i++){
+        arr[i]=arr[i+1];
+      }
+      n--;
+      for(int i=0;i<n;i++){
+         System.out.print(arr[i]+" ");
+      }
+       System.out.println("\ndeletion at specific position ");;
+      int k=2;
+      for(int i=k-1;i<n-1;i++){
+        arr[i]=arr[i+1];
+      }
+      n--;
+      for(int i=0;i<n;i++){
+         System.out.print(arr[i]+" ");
+      }
+      System.out.println("\ndeletion at last");
+     for(int i=0;i<n;i++){
+        n--;
+     }
+     for(int i=0;i<n;i++){
+         System.out.print(arr[i]+" ");
+      }
+
+    }
+>>>>>>> 90feee5744c567efbb58d27481d3ad4d7a8c2331
 }
